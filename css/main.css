@@ -17,11 +17,13 @@ h1{
 }
 h3{
   color:#66B4B8;
+  text-shadow: 1.3px 1.3px darkBlue;
 }
 
 /************************** CLASS SELECTORS ********************************/
 .starswrap{
   color:#77CC55;
+  text-shadow: 2px 1.5px black;
 }
 .tiger{/*This part resize the img to give him a desire space*/
   border:2px solid #77CC55;
@@ -34,5 +36,26 @@ h3{
 
 /**************************** ID SELECTORS ********************************/
 #resume{
-  font-size: 20px;
+  color:white;
+  font-size: 23px;
+  text-shadow: 1.4px 1.3px black;
+}
+#skillsTittle{
+  font-weight:lighter;
+  font: Verdana;
+  color: #77CC55;
+  text-shadow: 2.6px 1px black;
+}
+#pageTittle{
+  font-family: "Comic Sans MS";
+  font-weight:bold;
+  color: black;
+  text-align: center;
+  text-shadow: 2px 1.2px #44dde1;
+  /*
+  text-shadow: 2px 2.1px black;
+  color:#77CC55;
+  */
+
+
 }
