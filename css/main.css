@@ -1,0 +1,38 @@
+/********************* TAG SELECTORS ********************************/
+body{
+  /*background-color:#E0FFFF;*/
+  background-color:#316696;
+}
+hr{
+  border-color: #77CC55;
+  border-width: 5px;
+  /*background-color:white;*/
+  border-style:none;
+  border-top-style: dotted;
+  width: 30%;
+}
+h1{
+  color:white;
+  font-size:40px;
+}
+h3{
+  color:#66B4B8;
+}
+
+/************************** CLASS SELECTORS ********************************/
+.starswrap{
+  color:#77CC55;
+}
+.tiger{/*This part resize the img to give him a desire space*/
+  border:2px solid #77CC55;
+  width:50%;
+  height: auto;
+}
+.circular{
+  border-radius: 10%;
+}
+
+/**************************** ID SELECTORS ********************************/
+#resume{
+  font-size: 20px;
+}
