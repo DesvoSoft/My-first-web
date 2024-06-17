@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DesvoSoft</title>
+    <link rel="stylesheet" type="text/css" href="css/main-i.css">
+</head>
+<body>
+    <header>
+        <h1>DesvoSoft</h1>
+    </header>
+    
+    <nav>
+        <div>
+            <a href="apa.html">APA</a>
+            <a href="og.html">OG</a>
+        </div>
+        <button id="darkModeToggle">Modo Oscuro</button>
+    </nav>
+
+    <div class="container">
+        <section class="profile">
+            <img src="https://static.wixstatic.com/media/d7f4ba_066468a5acd14743a581a9924dc583a5~mv2.jpg/v1/fill/w_586,h_733,al_c,q_90,usm_0.66_1.00_0.01/d7f4ba_066468a5acd14743a581a9924dc583a5~mv2.webp" alt="gatini">
+            <div>
+                <h1 id="pageTittle">DesvoSoft &#9790;</h1>
+                <p id="resume">Desde siempre, he tenido una pasión por crear y contar historias a través de la tecnología. Mi objetivo es convertirme en un desarrollador indie, capaz de diseñar y construir experiencias únicas y memorables. Quiero fusionar la creatividad y la programación para desarrollar juegos y aplicaciones que inspiren y entretengan. Mi meta es aprender continuamente, superar desafíos y, finalmente, dejar mi huella en el mundo del desarrollo independiente.</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="skills">
+            <h2 id="skillsTittle">Habilidades</h2>
+            <div class="skills-grid">
+                <div>
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-bar-js"></div>
+                    </div>
+                </div>
+                <div>
+                    <h3>CSS</h3>
+                    <div class="skill-bar">
+                        <div class="skill-bar-css"></div>
+                    </div>
+                </div>
+                <div>
+                    <h3>Python</h3>
+                    <div class="skill-bar">
+                        <div class="skill-bar-python"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="contact">
+            <h2>Contacto</h2>
+            <form action="mailto:desvox23@gmail.com" method="post" enctype="text/plain">
+                <label for="yourName">Tu Nombre:</label>
+                <input type="text" name="yourName" id="yourName" required>
+
+                <label for="yourEmail">Tu Correo Electrónico:</label>
+                <input type="email" name="yourEmail" id="yourEmail" required>
+
+                <label for="yourMessage">Tu Mensaje:</label>
+                <textarea name="yourMessage" id="yourMessage" rows="5" required></textarea>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </div>
+
+    <script>
+        // Toggle dark mode
+        const darkModeToggle = document.getElementById('darkModeToggle');
+        darkModeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+        });
+    </script>
+</body>
+</html>
