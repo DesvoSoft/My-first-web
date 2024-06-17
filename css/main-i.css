@@ -50,6 +50,52 @@ nav a:hover {
     color: #e0e0e0;
 }
 
+.dark-mode {
+    background-color: #222;
+    color: #ddd;
+}
+
+.dark-mode form {
+    background-color: #333;
+    color: #ddd;
+    border-color: #555;
+}
+
+.dark-mode form input,
+.dark-mode form textarea {
+    background-color: #444;
+    color: #ddd;
+    border-color: #555;
+}
+
+.dark-mode form input[type="submit"] {
+    background-color: #666;
+}
+
+.dark-mode form input[type="submit"]:hover {
+    background-color: #777;
+}
+
+.dark-mode hr {
+    border-color: #555;
+}
+
+.dark-mode h1 {
+    color: #ddd;
+}
+
+.dark-mode h3 {
+    color: #bbb;
+}
+
+.dark-mode #pageTittle {
+    color: #ddd;
+}
+
+.dark-mode .starswrap {
+    color: #aaa;
+}
+
 .profile {
     display: flex;
     align-items: center;
